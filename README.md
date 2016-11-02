@@ -42,10 +42,21 @@ Extra points for if:
 
 
 ## 2. Understand code (~15 minutes) [2 points]
+
+
+
 Read the following code snippet:   
 What is the distance between the top-left corner of the document body and the yellow box?   
 Give a detailed explanation below!   
 Add your answer to this readme file, commit your changes to this repository.
+
+Answer:
+
+The distance between the yellow box and the top-left corner of the body is from top: 40px, from left: 40px.
+
+The yellow box is a child of the blue box. Both positions are absolute. The parent's absolute position resets the earlier positions. Therefore the yellow box positioned in the blue box (blue box top: 20px, left:20px). The blue box positioned in the body (body top: 20px left: 20px). The two boxes positions added and the result is: top: 40px left: 40px between the body top/left corner and the yellow box top-left corner.
+
+
 ```HTML
 <!DOCTYPE html>
 <html>
