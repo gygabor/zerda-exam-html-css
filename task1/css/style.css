@@ -14,6 +14,14 @@ section {
         display: flex;
         width: 555px;
         height: 200px;
+        position: relative;
+}
+
+section:before {
+        content: url(../img/edit-icon.png);
+        position:absolute;
+        left: 510px;
+        top: 160px;
 }
 
 article {
@@ -28,7 +36,7 @@ article {
         position: relative;
 }
 
-.john:before {
+section:before {
         content: url(../img/edit-icon.png);
         position:absolute;
         left: 510px;
@@ -39,13 +47,6 @@ article {
         box-sizing: border-box;
         background-color: #acb8df;
         position: relative;
-}
-
-.jane:before {
-        content: url(../img/edit-icon.png);
-        position:absolute;
-        left: 510px;
-        top: 160px;
 }
 
 h3 {
