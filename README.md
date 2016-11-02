@@ -101,6 +101,20 @@ Add your answer to this readme file, commit your changes to this repository.
 ### Explain the difference between `display: block` and `display: inline` in CSS! What is `display: inline-block`?
 #### Your answer: [2p]
 
+Answer:
+
+display: block: It occupies the whole space of it's parent element. It starts in a new line and stretches out left and right as far as it can.
+
+display: inline: It can wrap some text inside the paragraph without disturbing the flow.
+
+display: inline-block: It generates a block inside the paragraph or text. The contant is flowed around it.
+
 
 ### What is the difference between a `<section>` and an `<article>` element? Name one good example of using an `<article>`.
 #### Your answer: [2p]
+
+Answer:
+
+<section>: It represents a generic section of a document. Mostly thematic grouping of the content.
+
+<article>: It represents a self-contained part of the document. It can be a blog entry, forum post, magazine or newspaper article.
